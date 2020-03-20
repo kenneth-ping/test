@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+script:
+  - docker build -t kennethleo/node .
+  - docker images kennethleo/node
